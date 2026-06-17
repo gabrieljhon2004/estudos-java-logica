@@ -11,14 +11,15 @@ public class LacoWhile {
             String nome = input.nextLine();
             System.out.println("Digite outro nome: (Caso deseje sair, Digite 'x')");
             String nome2 = input.nextLine();
-            if (nome.equals("x")) {
+            if (nome.equals("x")){
                 break;
-            } else if (nome2.equals("x")) {
+            }
+            else if (nome2.equals("x")){
                 break;
             }
 
         }
-        System.out.println("O programa foi encerrado");
+            System.out.println("O programa foi encerrado");
 
     }
 }
