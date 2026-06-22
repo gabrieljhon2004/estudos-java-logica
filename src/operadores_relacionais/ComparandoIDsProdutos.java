@@ -7,7 +7,7 @@ public class ComparandoIDsProdutos {
         int idProdutoCarrinho = 404;
 
         if (idProdutoEstoque == idProdutoCarrinho) {
-            System.out.println("O produto do carrinho é o mesmo do estoque. Código: \" + idProdutoEstoque");
+            System.out.println("O produto do carrinho é o mesmo do estoque. Código: " + idProdutoEstoque);
         }
 
 
