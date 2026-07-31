@@ -1,4 +1,4 @@
-package Arrays.Arrays_unidimensionais;
+package arrays.arrays_unidimensionais;
 import java.util.Scanner;
 
 public class MultiplicadorBase {
