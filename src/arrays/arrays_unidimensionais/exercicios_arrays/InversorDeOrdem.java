@@ -1,4 +1,4 @@
-package arrays.arrays_unidimensionais;
+package arrays.arrays_unidimensionais.exercicios_arrays;
 
 public class InversorDeOrdem {
     public static void main(String[] args) {

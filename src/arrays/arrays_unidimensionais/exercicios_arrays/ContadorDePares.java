@@ -1,4 +1,4 @@
-package arrays.arrays_unidimensionais;
+package arrays.arrays_unidimensionais.exercicios_arrays;
 
 import java.util.Scanner;
 
