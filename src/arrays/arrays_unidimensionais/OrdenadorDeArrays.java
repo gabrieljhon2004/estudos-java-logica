@@ -1,13 +1,26 @@
 package arrays.arrays_unidimensionais;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class OrdenadorDeArrays {
     public static void main(String[] args) {
-     int[] temperaturas = {30,18,25,12,22,92,39,40,1,2,3,4,777,21314,3};
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Quantos números deseja ordenar: ");
+        int tamanho = input.nextInt();
+        int[] temperaturas = new int[tamanho];
+
+
+        for (int i = 0; i < temperaturas.length; i++) {
+            System.out.print("Digite um número: ");
+            temperaturas[i] = input.nextInt();
+
+        }
 
         for (int i = 0; i < temperaturas.length ; i++) {
             for (int j = 0; j < temperaturas.length -1 ; j++) {
-                if (temperaturas[j] > temperaturas [j + 1]) {
+                if ( temperaturas[j] > temperaturas [j + 1]) {
 
                     int aux = temperaturas[j];
                     temperaturas[j] = temperaturas [j + 1];
@@ -17,5 +30,7 @@ public class OrdenadorDeArrays {
             }
         }
         System.out.println(Arrays.toString(temperaturas));
+
+        input.close();
     }
 }
