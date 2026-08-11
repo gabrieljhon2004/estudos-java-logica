@@ -1,4 +1,4 @@
-package pesquisa_binaria;
+package arrays.pesquisa_binaria;
 import java.util.Scanner;
 import java.util.Arrays;
 
