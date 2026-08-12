@@ -27,7 +27,7 @@ public class ValidadorDeIngressoVip {
 
             } else if (ingressoConvite > ingressoVip[meio]) {
                 inicio = meio + 1;
-                ingressoExistente = true
+                ingressoExistente = true;
 
             } else {
                 fim = meio - 1;
