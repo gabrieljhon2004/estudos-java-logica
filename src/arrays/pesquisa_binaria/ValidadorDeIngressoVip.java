@@ -23,11 +23,11 @@ public class ValidadorDeIngressoVip {
 
             if (ingressoConvite == ingressoVip[meio]) {
                 System.out.println("Acesso liberado! Ingresso vip verificado na posição " + meio);
+                ingressoExistente = true;
                 break;
 
             } else if (ingressoConvite > ingressoVip[meio]) {
                 inicio = meio + 1;
-                ingressoExistente = true;
 
             } else {
                 fim = meio - 1;
